@@ -68,3 +68,39 @@
     position: relative;
     z-index: 10;
 }
+
+/* ========== BLUE ACCENT COLOR ADDITIONS ========== */
+
+/* Option 1: Trust Badges + Contact Icons - Subtle Blue Accents */
+/* Make the middle trust badge icon blue */
+.badge:nth-child(2) i {
+    color: #0066B3 !important;
+}
+
+/* Blue icons in contact section */
+.contact-info i {
+    color: #0066B3 !important;
+}
+
+/* Option 2: Alternating Section Headers - Bold Look */
+/* Services section header in blue */
+#services .section-header h2 span {
+    color: #0066B3 !important;
+}
+
+/* Contact section header in blue */
+#contact .section-header h2 span {
+    color: #0066B3 !important;
+}
+
+/* Careers section header in blue */
+#careers .section-header h2 span {
+    color: #0066B3 !important;
+}
+
+/* Option 3: Dual-Color Separator - Elegant */
+/* Make all separators dual-color (orange to blue gradient) */
+.separator {
+    background: linear-gradient(to right, #ff6b35 0%, #ff6b35 50%, #0066B3 50%, #0066B3 100%) !important;
+    height: 3px;
+}
